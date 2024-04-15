@@ -3,7 +3,7 @@
 client_id = "4d808c8cd7f557e417aef1a072591726"
 name = "novanest"
 handle = "novanest"
-application_url = "https://reaching-below-nav-biological.trycloudflare.com"
+application_url = "https://alike-mines-purchased-edwards.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://reaching-below-nav-biological.trycloudflare.com/auth/callback",
-  "https://reaching-below-nav-biological.trycloudflare.com/auth/shopify/callback",
-  "https://reaching-below-nav-biological.trycloudflare.com/api/auth/callback"
+  "https://alike-mines-purchased-edwards.trycloudflare.com/auth/callback",
+  "https://alike-mines-purchased-edwards.trycloudflare.com/auth/shopify/callback",
+  "https://alike-mines-purchased-edwards.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
