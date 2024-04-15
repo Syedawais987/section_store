@@ -1,17 +1,18 @@
-import prisma from "../db.server.ts";
+//app/controllers/SectionStore.js
+import prisma from "../db.server";
 
 export const create = async (query) => {
   try {
     let id = query.id ? query.id : undefined;
     const res = await prisma.SectionStore.upsert({
-      where: {
-        id: id,
-      },
+      where: { id: query["id"] || "" },
+
       update: query,
       create: query,
+      select: { id: true },
     });
-    console.log("Response :" + res);
+    console.log(res);
   } catch (error) {
-    console.log("Error :" + error);
+    console.log(error);
   }
 };

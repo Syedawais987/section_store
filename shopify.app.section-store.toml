@@ -3,7 +3,7 @@
 client_id = "bd5e6706ee9150a6cc97a4551bff8247"
 name = "Section_Store"
 handle = "section_store"
-application_url = "https://trademarks-machinery-accordingly-perspectives.trycloudflare.com"
+application_url = "https://vietnam-securities-lithuania-deer.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://trademarks-machinery-accordingly-perspectives.trycloudflare.com/auth/callback",
-  "https://trademarks-machinery-accordingly-perspectives.trycloudflare.com/auth/shopify/callback",
-  "https://trademarks-machinery-accordingly-perspectives.trycloudflare.com/api/auth/callback"
+  "https://vietnam-securities-lithuania-deer.trycloudflare.com/auth/callback",
+  "https://vietnam-securities-lithuania-deer.trycloudflare.com/auth/shopify/callback",
+  "https://vietnam-securities-lithuania-deer.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
